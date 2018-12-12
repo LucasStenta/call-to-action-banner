@@ -25,6 +25,7 @@ html {
   top: 49%;
   left: 50%;
 }
+
 body {
   font-family: Roboto;
   margin: 0;
@@ -50,6 +51,11 @@ body {
   width: 100%;
 }
 
+.banner-content img {
+  max-width: 40%;
+  padding: 0 2.6em 0 .6em;
+}
+
 .banner-content div p {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -66,21 +72,4 @@ body {
   background-color: #333;
   border: 3px solid #333;
   border-radius: 8px;
-}
-
-.banner-content {
-  position: absolute;
-  max-width: 45em;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  transform: translate(-50%, -50%);
-  top: 49%;
-  left: 50%;
-}
-
-.banner-content img {
-  max-width: 40%;
-  padding: 0 2.6em 0 .6em;
 }

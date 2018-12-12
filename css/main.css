@@ -36,3 +36,16 @@ body {
   max-height: 500px;
   overflow: hidden;
 }
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}

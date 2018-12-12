@@ -49,3 +49,21 @@ body {
   display: block;
   width: 100%;
 }
+
+.banner-content div p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 1.5em .75em 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: .4em .75em;
+  background-color: #333;
+  border: 3px solid #333;
+  border-radius: 8px;
+}
